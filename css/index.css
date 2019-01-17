@@ -151,8 +151,8 @@ button.play-acttion + div{
     line-height: 1.5;
     text-align: center;
     color: #707070;
-    width: 275px;
-    height: 150px;
+    width: 100%;
+    margin: 10px;
 }
 
 .btn-feature{
@@ -494,7 +494,7 @@ button.play-acttion + div{
 
     .example-1{
         width: 762px !important;
-        padding-bottom: 52px !important;
+        padding-bottom: 0 !important;
     }
 
     .header-quick-copy {
@@ -504,12 +504,12 @@ button.play-acttion + div{
     .content-quick-copy{
         padding-left: 86px !important;
         padding-right: 85px !important;
-        margin-bottom: 21px !important;
+        margin-bottom: 100px !important;
     }
 
     .example-2{
         width: 864px !important;
-        padding-bottom: 21px !important;
+        padding-bottom: 0 !important;
     }
 
     .flaky-locators-header{
@@ -519,12 +519,13 @@ button.play-acttion + div{
     .flaky-locators-content{
         padding-left: 86px !important;
         padding-right: 86px !important;
-        margin-bottom: 53px !important;
+        margin-bottom: 100px !important;
+		padding-bottom: 0 !important
     }
 
     .example-3{
         width: 864px !important;
-        padding-bottom: 21px !important;
+        padding-bottom: 0 !important;
     }
 
     .customize-locator-header{
@@ -686,6 +687,7 @@ button.play-acttion + div{
     .feature-logon{
         font-size: 40px !important;
         width: 100% !important;
+        margin-bottom: 40px;
     }
 
     .btn-feature{
